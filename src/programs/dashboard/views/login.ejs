@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/login.js"></script>
+</head>
+
+<body>
+    <h1>Login</h1>
+
+    <form action="/login" method="POST" class="form-signin">
+        <h3 class="form-signin-heading">Welcome! Please Sign In</h3>
+
+        <input type="text" class="form-control" name="email" placeholder="Email Address" required="" autofocus="" />
+        <input type="password" class="form-control" name="password" placeholder="Password" required="" />
+
+        <!-- <input class="btn btn-lg btn-primary btn-block test" name="Submit" value="Login" id="Submit"
+                type="Submit"> -->
+        <input class="btn btn-lg btn-primary btn-block" type="submit" name="submit" id="loginsubmit" value="login" />
+    </form>
+</body>
+
+
+</html>
